@@ -1,4 +1,4 @@
-# Trigger CI Action
+# Github Trigger CI Action
 
 This action creates a dummy, empty commit when a commit is pushed by
 another user. this can be used to trigger a CI workflow with a different user.
@@ -28,7 +28,7 @@ jobs:
     steps:
       - name: Trigger
         id: trigger
-        uses: tripodsan/touch-action@v1.5.7
+        uses: adobe-rnd/github-touch-action@master
         with:
           repo-token: ${{ secrets.MY_GITHUB_TOKEN }}
           user: tripod-alt
