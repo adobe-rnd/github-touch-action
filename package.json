@@ -25,6 +25,6 @@
     "@actions/github": "^2.1.1"
   },
   "devDependencies": {
-    "@zeit/ncc": "^0.21.1"
+    "@zeit/ncc": "^0.22.0"
   }
 }
